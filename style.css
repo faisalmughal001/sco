@@ -1,0 +1,152 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #e00202;
+  }
+  
+  header {
+    background-color: #492929;
+    padding: 15px 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .navbar .logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: #f4a261;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: #333 url('images/purse-hero.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 50px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+  }
+  
+  /* Featured Products */
+  .featured-products {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .featured-products h2 {
+    margin-bottom: 30px;
+  }
+  
+  .product {
+    display: inline-block;
+    width: 30%;
+    margin: 0 10px;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product p {
+    margin-top: 10px;
+  }
+  
+  /* Shop Page */
+  .shop {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 20px;
+  }
+  
+  .shop .product {
+    width: 30%;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .shop .product button {
+    background-color: #f4a261;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .shop .product button:hover {
+    background-color: #e76f51;
+  }
+  
+  /* Contact Form */
+  .contact {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .contact button {
+    background-color: #f4a261;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact button:hover {
+    background-color: #e76f51;
+  }
+  
